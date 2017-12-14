@@ -4,4 +4,4 @@ A react app that uses [Microsoft Cognitive Services](https://azure.microsoft.com
 
 ## Demo
 
-[Use this link to play with the app](#)
+[Use this link to play with the app](https://unjavascripter.github.io/react-image-recognition/)
