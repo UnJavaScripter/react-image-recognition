@@ -1,0 +1,44 @@
+.App {
+  text-align: center;
+}
+
+.query-form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 1em;
+}
+
+.query-form>input[type="file"] {
+  background-color: lavenderblush;
+  width: 25%;
+  font-size: 1em;
+  padding: 1em;
+  margin: 1em;
+}
+
+.query-form>button {
+  width: 25%;
+  background-color: deepskyblue;
+  color: white;
+  font-weight: bold;
+  font-size: 2.5em;
+  border: none;
+  border-radius: 3px;
+  padding: 3px 6px;
+}
+
+.query-form>button:disabled {
+  background-color: lavenderblush;
+  color: #bfbcbc;
+}
+
+.picture-description {
+  text-transform: capitalize;
+  margin: 1em;
+}
+
+.picture-container>img.err {
+  filter: blur(2px) grayscale(75%);
+}
